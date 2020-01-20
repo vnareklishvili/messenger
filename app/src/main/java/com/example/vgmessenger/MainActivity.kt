@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         val password  = password_edittext_registration.text.toString()
 
 
-        Log.d("MainActivity", "Email is:" + email)
+        Log.d("MainActivity", "Email is: " + email)
         Log.d("MainActivity", "Password: $password")
     }
 }
